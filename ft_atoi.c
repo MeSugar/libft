@@ -6,12 +6,11 @@
 /*   By: gdelta <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/01 20:46:38 by gdelta            #+#    #+#             */
-/*   Updated: 2020/11/24 00:26:57 by gdelta           ###   ########.fr       */
+/*   Updated: 2020/11/29 16:50:03 by gdelta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int	ft_atoi(const char *str)
 {
