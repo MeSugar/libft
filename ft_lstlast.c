@@ -6,7 +6,7 @@
 /*   By: gdelta <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/29 19:58:29 by gdelta            #+#    #+#             */
-/*   Updated: 2020/11/29 20:08:31 by gdelta           ###   ########.fr       */
+/*   Updated: 2020/12/03 22:27:32 by gdelta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,14 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	t_list *last;
+	t_list *list;
 
-	last = lst;
-	while (last->next)
-		last = last->next;
-	return (last);
+	list = lst;
+	if (list)
+	{
+		while (list->next)
+			list = list->next;
+		return (list);
+	}
+	return (0);
 }
