@@ -20,15 +20,15 @@ bzero		| ft_putchar_fd		| ft_lstiter
 memcpy		| ft_putstr_fd		| ft_lstmap
 memmove		| ft_putendl_fd	
 strlcpy		| ft_putnbr_fd
-strlcat		| ft_strsub
-toupper		| ft_strjoin
-tolower		| ft_strtrim
-strchr		| ft_strsplit
-strrchr		| ft_itoa
-strncmp		| ft_putchar
-memchr		| ft_putstr
-memcmp		| ft_putendl
-strnstr		| ft_putnbr
+strlcat
+toupper
+tolower
+strchr
+strrchr
+strncmp
+memchr
+memcmp
+strnstr		
 atoi
 calloc
 strdup
