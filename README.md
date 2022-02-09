@@ -39,5 +39,4 @@ To create the library run the following commands:
 	git clone https://github.com/MeSugar/libft.git
 	cd libft
 	make
-libft.a has to be created at the root of your repository
- 
+libft.a along with a bunch of .o files (you can remove them by running 'make clean') have to be created at the root of your repository
