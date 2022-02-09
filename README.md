@@ -8,7 +8,7 @@ It contains a lot of general purpose functions that my future C projects will re
 or that are part of it but in a different form, **Bonus Functions** - additional funcs to manipulate lists.
 
 Libc functions	| Additional functions	| Bonus Functions
-:----------- 	| :-----------:		| :-----------:
+:-----------  	| :-----------:		| :-----------:
 isalpha		| ft_substr		| ft_lstnew	
 isdigit		| ft_strjoin		| ft_lstadd_front
 isalnum		| ft_strtrim		| ft_lstsize
