@@ -40,3 +40,8 @@ To create the library run the following commands:
 	cd libft
 	make
 libft.a along with a bunch of .o files (you can remove them by running 'make clean') have to be created at the root of your repository
+
+I added example.c file to test ft_putstr and ft_upper functions. To use it run:
+
+	gcc example.c -L. -lbft -o example
+	./example
