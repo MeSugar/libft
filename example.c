@@ -2,6 +2,9 @@
 
 int		main()
 {
-	ft_putstr(ft_upper("hello wolrd!");
+	char str[] = "hello world!\n";
+	int len = ft_strlen(str);
+	for (int i = 0; i < len; i++) 
+		ft_putchar_fd(ft_toupper(str[i]), 1);
 	return (0);
 }
