@@ -3,7 +3,10 @@ This is my very first individual project as a student at school 21.
 The goal is to recode several functions of the C standard library to gain a deeper understanding of data structures and underlying algorithms.
 It contains a lot of general purpose functions that my future C projects will rely on. 
 
-## List of functions*
+## List of functions
+**Libc** - some of the standard C functions, **Additional functions** - set of functions that are either not in the standart library,
+or that are part of it but in a different form, **Bonus Functions** - additional funcs to manipulate lists.
+
 Libc functions | Additional functions | Bonus Functions
 :----------- | :-----------: | :-----------:
 isalpha		| ft_substr	| ft_lstnew	
@@ -30,5 +33,11 @@ atoi
 calloc
 strdup
 
-**Libc - some of the standard C functions, Additional functions - set of functions that are either not in the standart library,
-or that are part of it but in a different form, Bonus Functions - additional funcs to manipulate lists*
+## How to use the library
+To create the library run the following commands:
+
+	git clone https://github.com/MeSugar/libft.git
+	cd libft
+	make
+libft.a has to be created at the root of your repository
+ 
